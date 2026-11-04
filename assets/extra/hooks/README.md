@@ -21,7 +21,7 @@ O hook **`validate-assignment-structure`** intercepta toda tentativa do Copilot 
 
 **Regra validada:**
 > Qualquer arquivo criado dentro da pasta `assignments/` deve ser um dos seguintes:
-> `README.md`, `starter-code.py` ou `data.csv`.
+> `README.md`, `starter-code.py`, `data.csv` ou `text_utils.py`.
 
 **Exemplos de comportamento:**
 
@@ -29,6 +29,7 @@ O hook **`validate-assignment-structure`** intercepta toda tentativa do Copilot 
 |---|---|
 | `assignments/minha-tarefa/README.md` | ✅ Aprovado |
 | `assignments/minha-tarefa/starter-code.py` | ✅ Aprovado |
+| `assignments/minha-tarefa/text_utils.py` | ✅ Aprovado |
 | `assignments/minha-tarefa/solucao.py` | ❌ Bloqueado com mensagem explicativa |
 | `assets/css/styles.css` | ✅ Aprovado (fora de `assignments/`) |
 

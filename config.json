@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "testing-with-pytest",
+      "title": "Automated Testing with pytest",
+      "description": "Practice automated testing in Python with pytest, including assertions, edge cases, and parametrized tests.",
+      "path": "assignments/testing-with-pytest",
+      "dueDate": "2026-11-11",
+      "attachments": [
+        {
+          "name": "Module to Test",
+          "file": "text_utils.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
